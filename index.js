@@ -58,4 +58,8 @@ var docs = [
 {path:"class/Process.html#Process.kill", type:"function", title:"Process:kill", text:"Kill the process"},
 {path:"module/ofs.html#funscript", type:"section", title:"Funscript", text:""},
 {path:"module/ofs.html#gui", type:"section", title:"GUI", text:"All of these functions must be called from within the gui() function."},
+{path:"index.html#how_to_create_an_extension", type:"section", title:"How to create an extension", text:"How to create an extension Extension Structure Keybindings Custom UI"},
+{path:"index.html#extension_structure", type:"section", title:"Extension Structure", text:"Extension live in the %appdata%/OFS_data/extensions/ directory. An extension must have it's own directory with a main.lua in it. By default there is a Core extension which serves as a demo. In OFS extensions become available trough the main menu bar Extensions and must be enabled before they can be used. The main.lua must define three functions otherwise it just won't work. A new optional function which can be defined is scriptChange(scriptIdx)."},
+{path:"index.html#keybindings", type:"section", title:"Keybindings", text:"Keybindings are created by adding them to a global binding table *before* init() is called. This must be done in global scope."},
+{path:"index.html#custom_ui", type:"section", title:"Custom UI", text:"GUI functions must be called from within the gui() function. A list of functions can be found here. You can't pass values by reference in Lua which is why things like ofs.Slider have multiple return values. *When using multiple controls with the same name you have to give them a unique id.* <br>This applies to all controls not just buttons."},
 ];
