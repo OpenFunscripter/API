@@ -1,0 +1,1 @@
+--> https://openfunscripter.github.io/API/ <--
