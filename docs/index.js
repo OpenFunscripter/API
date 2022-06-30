@@ -14,6 +14,7 @@ var docs = [
 {path:"class/Action.html#Action.selected", type:"field", title:"Action.selected", text:"Is selected"},
 {path:"module/ofs.html#print", type:"function", title:"print", text:"Print to the extension log. Takes a variable amount of arguments strings and numbers. Example"},
 {path:"module/ofs.html#clamp", type:"function", title:"clamp", text:"Clamp a value"},
+{path:"module/ofs.html#ofs.Version", type:"function", title:"ofs.Version", text:"Get the API version"},
 {path:"module/ofs.html#ofs.ExtensionDir", type:"function", title:"ofs.ExtensionDir", text:"Get the extension directory path"},
 {path:"module/ofs.html#ofs.ScriptCount", type:"function", title:"ofs.ScriptCount", text:"Get the currently loaded script count"},
 {path:"module/ofs.html#ofs.ScriptName", type:"function", title:"ofs.ScriptName", text:"Get the script name"},
