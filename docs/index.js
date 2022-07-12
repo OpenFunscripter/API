@@ -6,6 +6,7 @@ var docs = [
 {path:"module/player.html", type:"module", title:"player", text:"Player functions"},
 {path:"module/action.html", type:"module", title:"action", text:"Action creation"},
 {path:"module/process.html", type:"module", title:"process", text:"Process creation"},
+{path:"module/player.html#player.playbackSpeed", type:"field", title:"player.playbackSpeed", text:"Control playback speed The value is automatically clamped between 0.05 minimum speed and 3.0 maximum speed"},
 {path:"class/Funscript.html#Funscript.actions", type:"field", title:"Funscript.actions", text:"Array of actions"},
 {path:"class/Funscript.html#Funscript.path", type:"field", title:"Funscript.path", text:"Default save path"},
 {path:"class/Funscript.html#Funscript.name", type:"field", title:"Funscript.name", text:"Name of the script"},
