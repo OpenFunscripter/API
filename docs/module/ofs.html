@@ -376,13 +376,28 @@ end
 </td>
 </tr>
 <tr>
+<td class="name"><a href="#ofs.InputInt"><var>ofs.InputInt</var></a>()</td>
+<td class="doc"><p>Create an input field</p>
+</td>
+</tr>
+<tr>
 <td class="name"><a href="#ofs.Drag"><var>ofs.Drag</var></a>()</td>
 <td class="doc"><p>Create a numeric drag input</p>
 </td>
 </tr>
 <tr>
+<td class="name"><a href="#ofs.DragInt"><var>ofs.DragInt</var></a>()</td>
+<td class="doc"><p>Create a numeric integer drag input</p>
+</td>
+</tr>
+<tr>
 <td class="name"><a href="#ofs.Slider"><var>ofs.Slider</var></a>()</td>
 <td class="doc"><p>Create a numeric slider</p>
+</td>
+</tr>
+<tr>
+<td class="name"><a href="#ofs.SliderInt"><var>ofs.SliderInt</var></a>()</td>
+<td class="doc"><p>Create a numeric integer slider</p>
 </td>
 </tr>
 <tr>
@@ -550,6 +565,48 @@ end
 </tr>
 </table>
 </dd>
+<dt id="ofs.InputInt">
+<span class="icon"></span><var>ofs.InputInt</var>(<em>txt</em>, <em>value</em>, <em>stepSize</em>)
+<a class="permalink" href="#ofs.InputInt" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Create an input field</p>
+
+<div class="heading">Parameters</div>
+<table class="parameters">
+<tr>
+<td class="name"><var>txt</var></td>
+<td class="types">(<em>string</em>)</td>
+<td class="doc"></td>
+</tr>
+<tr>
+<td class="name"><var>value</var></td>
+<td class="types">(<em>string</em> or <em>number</em>)</td>
+<td class="doc"></td>
+</tr>
+<tr>
+<td class="name"><var>stepSize</var></td>
+<td class="types">(<em>number</em> or <em>nil</em>)</td>
+<td class="doc"><p>only applies to numeric inputs,</p>
+</td>
+</tr>
+</table>
+<div class="heading">Return Values</div>
+<table class="returns">
+<tr>
+<td class="name">1.</td>
+<td class="types">(<em>number</em>)</td>
+<td class="doc"><p>value</p>
+</td>
+</tr>
+<tr>
+<td class="name">2.</td>
+<td class="types">(<em>bool</em>)</td>
+<td class="doc"><p>valueChanged</p>
+</td>
+</tr>
+</table>
+</dd>
 <dt id="ofs.Drag">
 <span class="icon"></span><var>ofs.Drag</var>(<em>txt</em>, <em>value</em>, <em>stepSize</em>)
 <a class="permalink" href="#ofs.Drag" title="Permalink to this definition">¶</a>
@@ -591,12 +648,99 @@ end
 </tr>
 </table>
 </dd>
+<dt id="ofs.DragInt">
+<span class="icon"></span><var>ofs.DragInt</var>(<em>txt</em>, <em>value</em>, <em>stepSize</em>)
+<a class="permalink" href="#ofs.DragInt" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Create a numeric integer drag input</p>
+
+<div class="heading">Parameters</div>
+<table class="parameters">
+<tr>
+<td class="name"><var>txt</var></td>
+<td class="types">(<em>string</em>)</td>
+<td class="doc"></td>
+</tr>
+<tr>
+<td class="name"><var>value</var></td>
+<td class="types">(<em>number</em>)</td>
+<td class="doc"></td>
+</tr>
+<tr>
+<td class="name"><var>stepSize</var></td>
+<td class="types">(<em>number</em> or <em>nil</em>)</td>
+<td class="doc"></td>
+</tr>
+</table>
+<div class="heading">Return Values</div>
+<table class="returns">
+<tr>
+<td class="name">1.</td>
+<td class="types">(<em>number</em>)</td>
+<td class="doc"><p>value</p>
+</td>
+</tr>
+<tr>
+<td class="name">2.</td>
+<td class="types">(<em>bool</em>)</td>
+<td class="doc"><p>valueChanged</p>
+</td>
+</tr>
+</table>
+</dd>
 <dt id="ofs.Slider">
 <span class="icon"></span><var>ofs.Slider</var>(<em>txt</em>, <em>value</em>, <em>min</em>, <em>max</em>)
 <a class="permalink" href="#ofs.Slider" title="Permalink to this definition">¶</a>
 </dt>
 <dd>
 <p>Create a numeric slider</p>
+
+<div class="heading">Parameters</div>
+<table class="parameters">
+<tr>
+<td class="name"><var>txt</var></td>
+<td class="types">(<em>string</em>)</td>
+<td class="doc"></td>
+</tr>
+<tr>
+<td class="name"><var>value</var></td>
+<td class="types">(<em>number</em>)</td>
+<td class="doc"></td>
+</tr>
+<tr>
+<td class="name"><var>min</var></td>
+<td class="types">(<em>number</em>)</td>
+<td class="doc"></td>
+</tr>
+<tr>
+<td class="name"><var>max</var></td>
+<td class="types">(<em>number</em>)</td>
+<td class="doc"></td>
+</tr>
+</table>
+<div class="heading">Return Values</div>
+<table class="returns">
+<tr>
+<td class="name">1.</td>
+<td class="types">(<em>number</em>)</td>
+<td class="doc"><p>value</p>
+</td>
+</tr>
+<tr>
+<td class="name">2.</td>
+<td class="types">(<em>bool</em>)</td>
+<td class="doc"><p>valueChanged</p>
+</td>
+</tr>
+</table>
+</dd>
+<dt id="ofs.SliderInt">
+<span class="icon"></span><var>ofs.SliderInt</var>(<em>txt</em>, <em>value</em>, <em>min</em>, <em>max</em>)
+<a class="permalink" href="#ofs.SliderInt" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Create a numeric integer slider</p>
 
 <div class="heading">Parameters</div>
 <table class="parameters">
