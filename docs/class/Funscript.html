@@ -133,7 +133,7 @@
 <td class="name"><a href="#Funscript.markForRemoval"><var>markForRemoval</var></a>()</td>
 <td class="doc"><p>Mark an action for removal</p>
 <h5>Example</h5>
-<pre><code class="language-lua">for action, idx in ipairs(script.actions) do
+<pre><code class="language-lua">for idx, action in ipairs(script.actions) do
   if action.pos &gt; 50 then
     script:markForRemoval(idx)
   end
@@ -349,7 +349,7 @@ script:removeMarked()
 <dd>
 <p>Mark an action for removal</p>
 <h5>Example</h5>
-<pre><code class="language-lua">for action, idx in ipairs(script.actions) do
+<pre><code class="language-lua">for idx, action in ipairs(script.actions) do
   if action.pos &gt; 50 then
     script:markForRemoval(idx)
   end
