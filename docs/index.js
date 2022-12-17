@@ -46,6 +46,8 @@ var docs = [
 {path:"module/player.html#player.IsPlaying", type:"function", title:"player.IsPlaying", text:"Gets if the player is playing"},
 {path:"module/player.html#player.CurrentVideo", type:"function", title:"player.CurrentVideo", text:"Gets the path to the current video"},
 {path:"module/player.html#player.FPS", type:"function", title:"player.FPS", text:"Get the FPS of the video"},
+{path:"module/player.html#player.Width", type:"function", title:"player.Width", text:"Get the width of the video"},
+{path:"module/player.html#player.Height", type:"function", title:"player.Height", text:"Get the height of the video"},
 {path:"class/Funscript.html#Funscript.hasSelection", type:"function", title:"Funscript:hasSelection", text:"Gets if the script has a selection"},
 {path:"class/Funscript.html#Funscript.commit", type:"function", title:"Funscript:commit", text:"Commit the changes"},
 {path:"class/Funscript.html#Funscript.sort", type:"function", title:"Funscript:sort", text:"Sort the actions array"},
@@ -64,7 +66,7 @@ var docs = [
 {path:"module/ofs.html#funscript", type:"section", title:"Funscript", text:""},
 {path:"module/ofs.html#gui", type:"section", title:"GUI", text:"All of these functions must be called from within the gui() function."},
 {path:"index.html#how_to_create_an_extension", type:"section", title:"How to create an extension", text:"How to create an extension Extension Structure Keybindings Custom UI"},
-{path:"index.html#extension_structure", type:"section", title:"Extension Structure", text:"Extension live in the %appdata%/OFS2_data/extensions/ directory. An extension must have it's own directory with a main.lua in it. By default there is a Core extension which serves as a demo. In OFS extensions become available trough the main menu bar Extensions and must be enabled before they can be used. The main.lua must define three functions otherwise it just won't work. A new optional function which can be defined is scriptChange(scriptIdx)."},
+{path:"index.html#extension_structure", type:"section", title:"Extension Structure", text:"Extension live in the %appdata%/OFS3_data/extensions/ directory. An extension must have it's own directory with a main.lua in it. By default there is a Core extension which serves as a demo. In OFS extensions become available trough the main menu bar Extensions and must be enabled before they can be used. The main.lua must define three functions otherwise it just won't work. A new optional function which can be defined is scriptChange(scriptIdx)."},
 {path:"index.html#keybindings", type:"section", title:"Keybindings", text:"Keybindings are created by adding them to a global binding table *before* init() is called. This must be done in global scope."},
 {path:"index.html#custom_ui", type:"section", title:"Custom UI", text:"GUI functions must be called from within the gui() function. A list of functions can be found here. You can't pass values by reference in Lua which is why things like ofs.Slider have multiple return values. *When using multiple controls with the same name you have to give them a unique id.* <br>This applies to all controls not just buttons."},
 ];
