@@ -33,6 +33,7 @@ var docs = [
 {path:"module/ofs.html#ofs.SliderInt", type:"function", title:"ofs.SliderInt", text:"Create a numeric integer slider"},
 {path:"module/ofs.html#ofs.Checkbox", type:"function", title:"ofs.Checkbox", text:"Create a checkbox"},
 {path:"module/ofs.html#ofs.Combo", type:"function", title:"ofs.Combo", text:"Create a combobox"},
+{path:"module/ofs.html#ofs.CollapsingHeader", type:"function", title:"ofs.CollapsingHeader", text:"Create a collapsable header Example"},
 {path:"module/ofs.html#ofs.SameLine", type:"function", title:"ofs.SameLine", text:"Put next control on the same line as the previous Example"},
 {path:"module/ofs.html#ofs.Separator", type:"function", title:"ofs.Separator", text:"Insert a separator"},
 {path:"module/ofs.html#ofs.NewLine", type:"function", title:"ofs.NewLine", text:"Insert a new line between controls Example"},

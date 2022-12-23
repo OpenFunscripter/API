@@ -411,6 +411,18 @@ end
 </td>
 </tr>
 <tr>
+<td class="name"><a href="#ofs.CollapsingHeader"><var>ofs.CollapsingHeader</var></a>()</td>
+<td class="doc"><p>Create a collapsable header</p>
+<h5>Example</h5>
+<pre><code class="language-lua">function gui()
+  if ofs.CollapsingHeader(&quot;abc&quot;) then
+     ofs.Text(&quot;This text is only visible when the header is opened&quot;)
+  end
+end
+</code></pre>
+</td>
+</tr>
+<tr>
 <td class="name"><a href="#ofs.SameLine"><var>ofs.SameLine</var></a>()</td>
 <td class="doc"><p>Put next control on the same line as the previous</p>
 <h5>Example</h5>
@@ -854,6 +866,37 @@ end
 <td class="name">2.</td>
 <td class="types">(<em>bool</em>)</td>
 <td class="doc"><p>selectionChanged</p>
+</td>
+</tr>
+</table>
+</dd>
+<dt id="ofs.CollapsingHeader">
+<span class="icon"></span><var>ofs.CollapsingHeader</var>(<em>txt</em>)
+<a class="permalink" href="#ofs.CollapsingHeader" title="Permalink to this definition">¶</a>
+</dt>
+<dd>
+<p>Create a collapsable header</p>
+<h5>Example</h5>
+<pre><code class="language-lua">function gui()
+  if ofs.CollapsingHeader(&quot;abc&quot;) then
+     ofs.Text(&quot;This text is only visible when the header is opened&quot;)
+  end
+end
+</code></pre>
+
+<div class="heading">Parameters</div>
+<table class="parameters">
+<tr>
+<td class="name"><var>txt</var></td>
+<td class="types">(<em>string</em>)</td>
+<td class="doc"></td>
+</tr>
+</table>
+<div class="heading">Return Values</div>
+<table class="returns">
+<tr>
+<td class="types">(<em>bool</em>)</td>
+<td class="doc"><p>headerOpened</p>
 </td>
 </tr>
 </table>
